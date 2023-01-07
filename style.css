@@ -1,0 +1,211 @@
+html, body{
+    background-color: lightblue !important;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.logo h1 {
+    color: aquamarine;
+    color: white;
+    text-shadow: 0px 3px 0px blue,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+
+.nav-list {
+    margin-bottom: 0px;
+} 
+
+.logo {
+    text-align:center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 8%;
+    height: 8%;
+    margin-bottom: 5px;
+}
+
+ul {
+    display: flex; 
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    width: 50%;
+    text-align: center;
+}
+
+.nav-list {
+    padding-left: 0px;
+}
+
+nav li {
+    font-size: 10%;
+    border-right: 1px solid green;
+}
+
+li img {
+    width: 20%;
+    height: auto;
+    margin: 5px 5px;
+}
+
+nav ul li:first-child {
+    border-left: 1px solid green;
+}
+
+a {
+    display: block;
+}
+
+a:hover{
+    background: beige;
+}
+
+article{
+    height: 800px;
+}
+
+#about-hokkaido {
+    margin-top: 30px;
+}
+
+article:first-child{
+    background-image: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/10/00/a1000053/img/basic/a1000053_main.jpg?20211027155300");
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    padding:6px 8px;
+    background-color: beige;
+    border-radius: 30px !important;
+}
+
+button:hover{
+    background: skyblue;
+}
+
+p {
+    text-align: center;
+}
+
+section{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem 3rem;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+    background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+}
+
+.card {
+    margin: 10px;
+}
+
+.card img {
+    height: 179px;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.season {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.season img { 
+    width: 230px;
+    height: 200px;
+}
+
+.season h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.area {
+    text-align: center;
+    margin-top: 20px 0px;
+}
+
+.area img { 
+    margin: 30px auto 30px auto;
+    width: 190px;
+    height: 190px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+}
+
+.area h3 {
+    font-weight: 700;
+    padding-bottom: 30px ;
+    text-align: center;
+}
+
+footer {
+    padding-top: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer-list {
+    font-weight: bold; 
+    display: inline-flex;
+    flex-wrap: wrap; 
+    padding-top: 250px;
+}
+
+.footer-list p {
+    font-size: 10%;
+    padding: 10px;
+}
+
+.footer-logo {
+    padding-top: 250px;
+}
+
+.footer-logo img {
+    width: 30%;
+    height: 30%;
+}
+
+.footer-logo p {
+    font-size: 10%;
+    text-align: left;
+    font-size: 20%;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 622px) {
+    .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .nav-list p {
+        font-size: 10%;
+    }
+    .nav-list img {
+        max-width: 10%;
+    }
+}
