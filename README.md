@@ -7,7 +7,7 @@ CSS
 Bootstrap
 
 
-# Reference
+# References
 Bootstrap
 https://getbootstrap.com/
 
